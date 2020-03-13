@@ -1,6 +1,4 @@
-/*
-document.write("Je débute avec Webpack !<br />");
+import _ from 'lodash';
 
-let a = "J'apprends Webpack !";
-document.write(a);
-*/
+let output = _.without([1, 2, 3], 1);
+console.log(content, output);
