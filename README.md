@@ -23,6 +23,5 @@ Les modalités de dépôt de vos contributions vous seront communiquées ultéri
 [Débuter avec Webpack - Architecture](https://www.alsacreations.com/tuto/lire/1754-debuter-avec-webpack.html)
 [Babel Loader](https://github.com/babel/babel-loader)
 [Webpack concat](https://www.npmjs.com/package/webpack-concat)
-
+[Contours Départements FR](https://public.opendatasoft.com/explore/dataset/contours-simplifies-des-departements-francais-2015/)
 [Add time dimension capabilities on a Leaflet map.](https://github.com/socib/Leaflet.TimeDimension)
-[Leaflet.timeline](http://skeate.github.io/Leaflet.timeline/)
