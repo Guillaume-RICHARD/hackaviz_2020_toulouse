@@ -3,9 +3,9 @@ const WebPackConcatPlugin = require('webpack-concat');
 const path = require("path");
 
 let config = {
-    entry: "./src/public/bundle.js",
+    entry: "./dist/public/bundle.js",
     output: {
-        path: path.resolve(__dirname, "./dist"),
+        path: path.resolve(__dirname, "./public/js"),
         filename: "./main.js"
     },
     module: {
@@ -24,9 +24,9 @@ let config = {
     },
     plugins: [
         new WebPackConcatPlugin({
-            buildPath: ['src'],
+            buildPath: ['dist'],
             output: 'public/bundle.js',
-            files: ['index.js', 'leaflet.js']
+            files: ['index.js', 'd3.js']
         }),
     ]
 }
