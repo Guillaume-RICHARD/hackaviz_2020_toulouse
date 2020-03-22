@@ -26,7 +26,7 @@ let config = {
         new WebPackConcatPlugin({
             buildPath: ['dist'],
             output: 'public/bundle.js',
-            files: ['index.js', 'd3.js']
+            files: ['jquery.scrollex.min.js', 'breakpoints.min.js', 'browser.min.js', 'main.js','util.js']
         }),
     ]
 }
