@@ -1,0 +1,50 @@
+{% extends 'base.twig' %}
+
+{% block content %}
+
+    <div id="page-wrapper">
+        <!-- Wrapper -->
+        <section id="wrapper">
+
+            <div class="wrapper">
+                <div class="inner">
+
+                    <h2 class="major">Formulaire de Contact</h2>
+                    <p>Pour me contacter, n'hésitez pas à m'envoyer un message. Je le recevrai directement par mail :)</p>
+                    <form method="post" action="/contact">
+                        <div class="fields">
+                            <div class="field">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" />
+                            </div>
+                            <div class="field">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" />
+                            </div>
+                            <div class="field">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" rows="4"></textarea>
+                            </div>
+                        </div>
+                        <ul class="actions">
+                            <li><input type="submit" value="Envoyer un message" /></li>
+                        </ul>
+                    </form>
+                    <ul class="contact">
+                        <li class="icon solid fa-home">
+                            Guillaume RICHARD<br />
+                            15 rue Adrien Thibault<br />
+                            41260 La Chaussée Saint Victor
+                        </li>
+                        <li class="icon solid fa-phone">(+33) 06.85.71.00.64</li>
+                        <li class="icon solid fa-envelope"><a href="https://guillaume-richard.fr/">Guillaume RICHARD</a></li>
+                        <li class="icon brands fa-twitter"><a href="https://twitter.com/gjfrichard">twitter.com/</a></li>
+                        <li class="icon brands fa-instagram"><a href="https://www.instagram.com/g.jf.richard/">instagram.com/g.jf.richard</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+{% endblock %}
